@@ -1,0 +1,232 @@
+* {
+  text-align: center; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+hr {
+  border: solid #0e2b02 2px;
+  border-bottom: none;
+  width: 40%;
+  margin: 0 30%; }
+
+#title {
+  background-color: #438a5e;
+  color: white; }
+
+.container-fluid {
+  padding: 3% 14%; }
+
+.tituloUno {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem; }
+
+.subtituloUno {
+  font-size: 2rem;
+  font-family: "Krona One", sans-serif; }
+
+.titleFrase {
+  padding-top: 4%; }
+
+/* Navigation Bar */
+nav {
+  font-family: "Kanit"; }
+
+.navbar {
+  padding: 0 0 3rem 0; }
+
+.navbar-brand {
+  font-family: "Kanit";
+  font-weight: 700;
+  font-size: 2.5rem; }
+
+.navbar-brand span {
+  color: #44ff00; }
+
+.nav-item {
+  padding: 0 18px; }
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300; }
+
+/* Botones del Titulo */
+.titleButton {
+  margin: 5% 3% 5% 0; }
+
+/* Imagen del titulo */
+.image-title {
+  width: 110%;
+  transition: 0.5; }
+
+.image-title:hover {
+  transform: scale(1.05); }
+
+/* Seccion Dos */
+#features {
+  padding: 7% 14%; }
+
+.feature-box {
+  text-align: center;
+  padding: 5%; }
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2rem; }
+
+p {
+  font-family: "Krona One", sans-serif;
+  color: #8f8f8f; }
+
+.icon {
+  color: #06623b;
+  margin-bottom: 1rem; }
+
+.icon:hover {
+  color: #44ff00; }
+
+/* Seccion Tres */
+#actividad {
+  padding: 7% 20%;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.tituloActividad {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: black;
+  padding-bottom: 7%; }
+
+.actividad-row {
+  line-height: 2;
+  padding: 2%; }
+
+.habilidades {
+  max-width: 25em;
+  float: left;
+  margin-left: -10em;
+  margin-right: 1em;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box;
+  shape-margin: 1em; }
+
+.habilidades2 {
+  max-width: 25em;
+  float: right;
+  margin-right: -10em;
+  margin-left: 1em;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box;
+  shape-margin: 1em; }
+
+.actividad-row h3 {
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+  color: black; }
+
+/* Seccion Cuatro */
+#sedes {
+  text-align: center;
+  background-color: #06623b;
+  color: white; }
+
+.subtituloDos {
+  font-family: "Kanit", sans-serif;
+  font-size: 2.7rem;
+  color: white; }
+
+.sede-img {
+  width: 70%;
+  border-radius: 10%;
+  margin: 15px; }
+
+#press {
+  background-color: #06623b;
+  text-align: center;
+  padding-bottom: 3%; }
+
+.pesa-img {
+  width: 12%; }
+
+.carousel-item {
+  padding: 7% 14%; }
+
+/* Seccion Cinco - Precios */
+#pricing {
+  padding: 100px;
+  text-align: center; }
+
+#pricing h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem; }
+
+.precio {
+  padding: 3% 2%; }
+
+/* Seccion Seis */
+#cta {
+  background-color: #438a5e;
+  color: white;
+  padding: 7% 14%;
+  text-align: center;
+  line-height: 1.5; }
+
+/* Seccion del Footer */
+#footer {
+  padding: 7% 14%;
+  text-align: center; }
+
+.social-icon {
+  margin: 20px 10px; }
+
+/* Seccion Siete */
+#contact {
+  background-color: #438a5e;
+  color: white;
+  padding: 7% 14%;
+  text-align: center;
+  line-height: 1.5; }
+
+#contact h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem; }
+
+#contact p {
+  color: #144d53; }
+
+.botonVolver {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Kanit"; }
+
+input {
+  transition: all 1s; }
+
+input:focus {
+  width: 300px;
+  height: 60px;
+  font-size: 24px; }
+
+@media (max-width: 1028px) {
+  .navbar-brand {
+    font-family: "Kanit";
+    font-weight: 700;
+    font-size: 1.7rem; }
+  #title {
+    text-align: center; }
+  .habilidades {
+    width: 18em;
+    float: none;
+    shape-outside: unset; }
+  .habilidades2 {
+    width: 18em;
+    float: none;
+    shape-outside: unset; } }

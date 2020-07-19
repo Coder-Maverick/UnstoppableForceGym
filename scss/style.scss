@@ -1,0 +1,300 @@
+$fuente-logo: "Kanit";
+$fuente-titulos: "Montserrat", sans-serif;
+$color-titulos: white;
+$weight-titulos: 900;
+$padding-secciones: 7% 14%;
+$fondo-secciones: #438a5e;
+$fondo-secciones-dos: #06623b;
+$justificado-texto: center;
+
+* {
+      @if $justificado-texto == center {
+             text-align: center;
+      } @else if $justificado-texto == left {
+                 text-align: left;
+     } @else if $justificado-texto == right {
+                text-align: right;
+     } @else {
+                text-align: center;
+      }
+}
+
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: solid #0e2b02 2px;
+  border-bottom: none;
+  width: 40%;
+  margin: 0 30%;
+}
+
+#title {
+  background-color: $fondo-secciones;
+  color: $color-titulos;
+}
+
+.container-fluid {
+  padding: 3% 14%;
+}
+
+.tituloUno {
+  font-family: $fuente-titulos;
+  font-weight: $weight-titulos;
+  font-size: 3.5rem;
+}
+
+.subtituloUno {
+  font-size: 2rem;
+  font-family: "Krona One", sans-serif;
+}
+
+.titleFrase {
+  padding-top: 4%;
+}
+
+/* Navigation Bar */
+nav {
+  font-family: $fuente-logo;
+}
+
+.navbar {
+  padding: 0 0 3rem 0;
+}
+
+.navbar-brand {
+  font-family: $fuente-logo;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.navbar-brand span {
+  color: #44ff00;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Botones del Titulo */
+.titleButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Imagen del titulo */
+.image-title {
+  width: 110%;
+  transition: 0.5;
+}
+
+.image-title:hover {
+  transform: scale(1.05);
+}
+
+/* Seccion Dos */
+#features {
+  padding: $padding-secciones;
+}
+
+.feature-box {
+  text-align: $justificado-texto;
+  padding: 5%;
+}
+
+h3 {
+  font-family: $fuente-titulos;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Krona One", sans-serif;
+  color: #8f8f8f;
+}
+
+.icon {
+  color: $fondo-secciones-dos;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #44ff00;
+}
+
+/* Seccion Tres */
+#actividad {
+  padding: 7% 20%;
+  text-align: $justificado-texto;
+  margin-bottom: 30px;
+}
+
+.tituloActividad {
+  font-family: $fuente-titulos;
+  font-weight: $weight-titulos;
+  font-size: 3.5rem;
+  color: black;
+  padding-bottom: 7%;
+}
+
+.actividad-row {
+  line-height: 2;
+  padding: 2%;
+}
+
+.habilidades {
+  max-width: 25em;
+  float: left;
+  margin-left: -10em;
+  margin-right: 1em;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box;
+  shape-margin: 1em;
+}
+
+.habilidades2 {
+  max-width: 25em;
+  float: right;
+  margin-right: -10em;
+  margin-left: 1em;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box;
+  shape-margin: 1em;
+}
+
+.actividad-row h3 {
+  font-weight: 600;
+  font-family: $fuente-logo, sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* Seccion Cuatro */
+#sedes {
+  text-align: $justificado-texto;
+  background-color: $fondo-secciones-dos;
+  color: $color-titulos;
+}
+
+.subtituloDos {
+  font-family: $fuente-logo, sans-serif;
+  font-size: 2.7rem;
+  color: $color-titulos;
+}
+
+.sede-img {
+  width: 70%;
+  border-radius: 10%;
+  margin: 15px;
+}
+
+#press {
+  background-color: $fondo-secciones-dos;
+  text-align: $justificado-texto;
+  padding-bottom: 3%;
+}
+
+.pesa-img {
+  width: 12%;
+}
+
+.carousel-item {
+  padding: $padding-secciones;
+}
+
+/* Seccion Cinco - Precios */
+#pricing {
+  padding: 100px;
+  text-align: $justificado-texto;
+}
+
+#pricing h2 {
+  font-family: $fuente-titulos;
+  font-weight: $weight-titulos;
+  font-size: 2.5rem;
+}
+
+.precio {
+  padding: 3% 2%;
+}
+
+/* Seccion Seis */
+#cta {
+  background-color: $fondo-secciones;
+  color: $color-titulos;
+  padding: $padding-secciones;
+  text-align: $justificado-texto;
+  line-height: 1.5;
+}
+
+/* Seccion del Footer */
+#footer {
+  padding: $padding-secciones;
+  text-align: $justificado-texto;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Seccion Siete */
+#contact {
+  background-color: $fondo-secciones;
+  color: $color-titulos;
+  padding: $padding-secciones;
+  text-align: $justificado-texto;
+  line-height: 1.5;
+}
+#contact h2 {
+  font-family: $fuente-titulos;
+  font-weight: $weight-titulos;
+  font-size: 2.5rem;
+}
+#contact p {
+  color: /*#184d47;*/#144d53;
+}
+.botonVolver {
+  color: $color-titulos;
+  font-size: 1.5rem;
+  font-family: $fuente-logo;
+
+}
+input {
+   transition: all 1s;
+
+}
+input:focus {
+   width: 300px;
+   height: 60px;
+   font-size: 24px;
+}
+@media (max-width: 1028px) {
+  .navbar-brand {
+    font-family: $fuente-logo;
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+
+  #title {
+    text-align: $justificado-texto;
+  }
+  .habilidades {
+      width: 18em;
+      float: none;
+      shape-outside: unset;
+    }
+    .habilidades2 {
+      width: 18em;
+      float: none;
+      shape-outside: unset;
+    }
+}
